@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family={{= it.font || 'Montserrat'}});
+@import url(http://fonts.googleapis.com/css?family={{= it.font || 'Source+Code+Pro'}});
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: {{= it.color || 'white' }};
+  background: {{= it.background || 'black' }};
+}
+
+.bespoke-parent {
+  text-align: center;
+  font-size: 1.5em;
+  display: flex;
+  width: auto;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bespoke-slide {
+  padding: 5%;
+  width: 90%;
+  height: 90%;
+
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.bespoke-slide ul, .bespoke-slide ol {
+  text-align: left;
+}
+
+.bespoke-slide h1, .bespoke-slide h2, .bespoke-slide h3 {
+  margin: 0px;
+}
+
+.bespoke-slide h1 + h2 {
+  margin-top: 10px;
+}
+
+.bespoke-slide h1 {
+  font-size: 4em;
+  text-shadow: 1.5px 1.5px 1px {{= it.background || 'black' }};
+}
+
+.bespoke-slide pre, .bespoke-slide code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.bespoke-slide li {
+  line-height: 2em;
+}
+
+.bespoke-slide blockquote {
+  text-align: justify;
+  font-style: italic;
+}
+
+.bespoke-slide a, .bespoke-slide a:visited {
+  text-decoration: none;
+  color: {{= it.linkcolor || 'yellow' }};
+}
+
+.bespoke-bullet {
+  transition: transform 0.5s ease-in-out;
+}
+
+.bespoke-bullet.bespoke-bullet-inactive {
+  transform: translateY(100vh) translateZ(0);
+}
