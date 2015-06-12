@@ -205,3 +205,25 @@ pre[data-line] {
 	top: auto;
 }
 
+body {
+  background: #0e776f;
+}
+center img {
+  border-radius: 50%;
+}
+.judul {
+  font-size: 15px;
+  color: #fff;
+}
+.lurus {
+  display: inline;
+  width: 100%;
+}
+.kiri {
+  text-align: left;
+  float: left;
+}
+.kanan {
+  text-align: right;
+  float: right;
+}
