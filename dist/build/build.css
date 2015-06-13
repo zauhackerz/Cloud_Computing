@@ -205,8 +205,18 @@ pre[data-line] {
 	top: auto;
 }
 
+@import url("http://fonts.googleapis.com/css?family=Lobster");
+@import url("http://fonts.googleapis.com/css?family=Pacifico");
 body {
   background: #0e776f;
+}
+.head {
+  font-family: 'Lobster', cursive;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Pacifico', cursive;
 }
 center img {
   border-radius: 50%;
