@@ -210,6 +210,9 @@ pre[data-line] {
 body {
   background: #0e776f;
 }
+body p {
+  font-size: 20px;
+}
 .head {
   font-family: 'Lobster', cursive;
 }
@@ -217,6 +220,11 @@ h1,
 h2,
 h3 {
   font-family: 'Pacifico', cursive;
+}
+.judul_atas {
+  padding: 2%;
+  background: #ff0;
+  color: #000;
 }
 center img {
   border-radius: 50%;
