@@ -208,7 +208,8 @@ pre[data-line] {
 @import url("http://fonts.googleapis.com/css?family=Lobster");
 @import url("http://fonts.googleapis.com/css?family=Pacifico");
 body {
-  background: #0e776f;
+  background: url("https://s-media-cache-ak0.pinimg.com/736x/67/a8/ae/67a8ae1efcb8b9aa54ef8f2617b5644c.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 body p {
   font-size: 20px;
@@ -223,7 +224,8 @@ h3 {
 }
 .judul_atas {
   padding: 2%;
-  background: #ff0;
+  background: rgba(255,255,0,0.51);
+  border-radius: 70%;
   color: #000;
 }
 center img {
