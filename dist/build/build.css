@@ -247,3 +247,19 @@ center img {
   text-align: right;
   float: right;
 }
+.biru {
+  background-color: rgba(0,255,255,0.32);
+}
+.hijau {
+  background-color: rgba(0,255,146,0.44);
+}
+.kuning {
+  background-color: rgba(255,218,0,0.63);
+}
+.abu {
+  background-color: rgba(132,106,106,0.63);
+}
+.sampul {
+  background: url("http://m2.i.pbase.com/o4/54/24354/1/63959702.umsmiZ8L.Animation23July4.gif") no-repeat center center fixed;
+  background-size: cover;
+}
